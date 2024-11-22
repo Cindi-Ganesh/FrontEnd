@@ -1,5 +1,5 @@
-
 <!-- 1. Create a simple login form with fields for username and password.-->
+<!-- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,5 +23,36 @@
             <button type="submit">Submit</button>
         </form>
     </div>
+</body>
+</html> -->
+
+
+
+<!-- 2. Build a form with input types for text, email, password, and a date picker. 
+ Ensure that the email field has proper validation.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Input Form</title>
+</head>
+<body>
+    <h2>User Registration Form</h2>
+    <form>
+        <label for="username">Full Name:</label><br>
+        <input type="text" id="username" name="username" placeholder="Enter your full name" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter a valid email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Create a password" required><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <button type="submit">Register</button>
+    </form>
 </body>
 </html>
